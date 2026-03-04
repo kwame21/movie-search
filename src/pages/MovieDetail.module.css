@@ -1,0 +1,101 @@
+.container {
+  min-height: 100vh;
+  background-color: #141414;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.backBtn {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.backBtn:hover {
+  background-color: #b20710;
+}
+
+.detail {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.poster {
+  width: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.meta {
+  color: #aaa;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.rating {
+  color: #f5c518;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.plot {
+  color: #ccc;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.cast {
+  color: #aaa;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.trailerSection {
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.trailerTitle {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.trailerWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.trailer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
